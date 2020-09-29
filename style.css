@@ -1,0 +1,17 @@
+body {
+    color: #700a27;
+    background-image: url(./Assetts/checkered\ flag.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(0,116,176);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+}
+
+#dropdown{
+    color: darkred;
+    text-align: center;
+    
+}
