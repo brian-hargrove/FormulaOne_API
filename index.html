@@ -8,16 +8,18 @@
 </head>
 <body>
 <h1>Formula One Champions</h1>
+
 <form>
 <select name="year" id="dropdown" >
-  <option value="null">-- Choose Year --</option>
+  <option value="null" class="search" onchange="fetchResults">-- Choose Year --</option>
 
   
 </select>
-<p>
-  <button class="submit" onclick="displayResults(json)">Submit search</button>
-</p>
+<!-- <p>
+  <button class="submit" >Submit search</button>
+</p>-->
 </form>
+
 
 <section class="yearResults">
 
